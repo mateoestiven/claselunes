@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,900&display=swap');
+
+/* selector universal */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Montserrat'; */
+}
+
+h1 {
+    
+    font-weight: 900;
+    color: rgb(201, 198, 21);
+}
+
+/* selector de etiqueta */
+
+h2 {
+    color: red;
+}
+
+/* selector de id */
+
+#site_text {
+    background-color: brown;
+}
+
+/* selector de clases  */
+
+.subtitles{
+    font-family: 'Montserrat';
+}
+
+/* selector por atributo  */
+
+input[disabled] {
+    background-color: aqua;
+}
+
+/* slector po id - boton enviar */
+
+#btn_send{
+    margin: 50px;
+    padding: 50px;
+}
+
+/* selector por seudoclases */
+
+#btn_send:hover{
+    background-color: aquamarine;
+    color: orange;
+    font-size: 20px;
+}
+
+#papa{
+    margin-left: 50px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.hermanos {
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px;
+}
+
+#nh_uno{
+    color: blue;
+}
+
+/* selector descendente hijo */
+
+#papa > .hermanos > #nh_uno {
+    color: orange;
+}
+
+/* selector descendente */
+
+#papa .nieto{
+    color: red;
+}
+
+span{
+    color: blue;
+}

@@ -48,14 +48,14 @@ input[disabled] {
 /* selector por seudoclases */
 
 #btn_send:hover{
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 244);
     color: orange;
     font-size: 20px;
 }
 
 #papa{
     margin-left: 50px;
-    border: 2px solid red;
+    border: 2px solid rgb(0, 255, 191);
     border-radius: 10px;
 }
 
@@ -85,4 +85,52 @@ input[disabled] {
 
 span{
     color: blue;
+}
+
+#title_box {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    background-color: aqua;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 50px;
+    border: 3px inset #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px ;
+    box-shadow: -40px 38px 19px -4px rgba(160, 25, 25, 0.5);
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+#box_father {
+    border: 3px solid #000;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-image: url(https://s.france24.com/media/display/451ed2b8-eed6-11ea-afdd-005056bf87d6/w:1280/p:4x3/messi-1805.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* media querys de 799 para abajo */
+@media (min-width: 800px) and (max-width: 1280px) {
+    body{
+        background-color: red;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+@media  (min-width: 799px) {
+    body {
+        background-image: url(https://s.france24.com/media/display/451ed2b8-eed6-11ea-afdd-005056bf87d6/w:1280/p:4x3/messi-1805.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }

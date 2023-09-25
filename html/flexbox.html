@@ -36,18 +36,30 @@
             width: 200px;
             height: 200px;
             background-color: #000;
+            border-radius: 15px;
+            /* transform: translate(-5px,-10px); */
         }
 
         #son_one {
             background-color: aqua;
+            transform: rotate(45deg);
+            
         }
 
         #son_two {
             background-color: blue;
+            transform: scale(1.1);
+            border-radius: 50%;
         }
 
         #son_three {
             background-color: blueviolet;
+            transform: skew(-5deg, -10deg );
+        }
+
+        #son:hover {
+            transform: scale(1.1);
+            transition: all ease-in-out 0.7s;
         }
     </style>
 </head>

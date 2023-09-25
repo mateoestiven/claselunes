@@ -4,31 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style_login.css">
 </head>
 <body>
-    <ul>
-        <li><a href="html/tablas.html">Ir a tablas</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/multimedia.html">Ir a multimedia</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/form.html">Ir a formulario</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/text.html">Ir a texto</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/semanticas.html">Ir a semanticas</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/agrupacion.html">Ir a agrupacion</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/estilos.html">Ir a estilos</a></li>
-    </ul>
-    <ul>
-        <li><a href="html/flexbox.html">Ir a FLEXBOX</a></li>
-    </ul>
+    <div class="background"></div>
+<div class="centering">
+    <form action="" class="my_form">
+        <div class="login_welcome">
+            <img src="https://img.freepik.com/vector-gratis/astronauta-dabbing-cartoon-vector-icon-illustration-concepto-icono-tecnologia-ciencia-aislado-vector-premium-estilo-dibujos-animados-plana_138676-3360.jpg?w=2000" alt="Astronauta" class="login">
+            <h1>INICIAR SESION</h1>
+        </div>
+        <div class="text_field">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email" aria-label="Email" placeholder="Ingrese su correo electronico">
+            <img src="" alt=""> 
+        </div>
+        <div class="text_field">
+            <label for="password">password</label>
+            <input 
+            type="password"
+            id="password" name="password" placeholder="Ingrese su credencial" required>
+            <img src="" alt="">
+        </div>
+
+        <input type="submit" class="my_form_button" value="Login">
+        <div> 
+            <div class="my_form_actions">
+                <div class="my_form">
+                    <span>Olvidaste tu contraseña</span>
+                <a href="#" title="Recuperar contraseña">Recuperar contraseña</a>
+                </div>
+            </div>
+            <div class="my_form_signup">
+                <a href="#" title="Create Account">Crear cuenta</a>
+            </div>
+        </div>
+    </form>
+</div>
 </body>
 </html>
